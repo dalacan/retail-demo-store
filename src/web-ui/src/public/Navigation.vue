@@ -93,7 +93,7 @@ export default {
   computed: {
     user() { 
       return AmplifyStore.state.user
-    }
+    },
     imageRootURL() {
       return process.env.VUE_APP_IMAGE_ROOT_URL ? process.env.VUE_APP_IMAGE_ROOT_URL : '/images/'
     }
