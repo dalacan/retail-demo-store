@@ -33,7 +33,8 @@
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-globe-americas fa-stack-1x fa-inverse"></i>
           </span>
-          &nbsp;Retail Demo Store  
+          <img v-bind:src="imageRootURL + 'octan.png'" alt="Octank">
+          &nbsp;Octank Retail Demo Store  
         </router-link>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item" v-if="!user" >
