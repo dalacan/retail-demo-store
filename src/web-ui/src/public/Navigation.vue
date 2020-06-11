@@ -29,7 +29,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-white nav-bar-bottom">
         <router-link class="navbar-brand text-primary mr-0" :to="{name:'Main'}">
-          <img v-bind:src="imageRootURL + 'octan.png'" width="100" alt="Octank">
+          <img v-bind:src="imageRootURL + 'octan.png'" width="48" alt="Octank">
           &nbsp;Octank Retail Demo Store  
         </router-link>
         <ul class="navbar-nav ml-auto">
